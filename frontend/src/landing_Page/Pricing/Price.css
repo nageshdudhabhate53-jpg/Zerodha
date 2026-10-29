@@ -1,0 +1,62 @@
+
+/* Page heading */
+.charges-heading {
+    margin-top: 70px;
+}
+
+/* Center the three pricing sections */
+.pricing-section {
+    max-width: 1100px;
+    margin: 110px auto 0;
+}
+
+/* Pricing images */
+.pricing-img {
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 25px;
+}
+
+/* Each pricing column */
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Pricing headings */
+.image-container h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* Pricing descriptions */
+.image-container p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+/* Responsive layout for mobile */
+@media (max-width: 767px) {
+    .pricing-section {
+        margin-top: 60px;
+    }
+
+    .image-container {
+        margin-bottom: 45px;
+    }
+
+    .pricing-img {
+        width: 150px;
+        height: 130px;
+    }
+
+    .image-container h3 {
+        font-size: 22px;
+    }
+}
